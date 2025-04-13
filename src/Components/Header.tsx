@@ -42,7 +42,7 @@ function Header() {
 						transition-all duration-500 ease-in-out'>
 						{item.name}
 					</li>
-				))}
+				))} 
 			</ul>
 			<div className='md:hidden'>
 				<h2 className='text-white font-medium flex items-center gap-2 px-3 py-2 pb-2 
