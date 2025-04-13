@@ -3,7 +3,7 @@ import logo from './../assets/Images/logo.png'
 import { IoChevronDownOutline, IoChevronUpOutline, IoSearch } from "react-icons/io5";
 
 function Header() {
-	const [toggle, setToggle]=useState(true);
+	const [toggle, setToggle]=useState(false);
 	const menu=[
 		{
 			 id:1,
@@ -32,7 +32,7 @@ function Header() {
   ]
 
 	return (
-		<div className='flex justify-between items-center p-4 px-10
+		<div className='flex z-30 justify-between items-center p-4 px-10
 			absolute w-full bg-gradient-to-b from-[#1e2126] to-transparent'>
 			<img src={logo} className='w-[65px]'/>
 			<ul className='hidden md:flex gap-8'>
