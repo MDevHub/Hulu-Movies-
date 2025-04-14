@@ -20,7 +20,7 @@ function Hero() {
       <div>
           <div className='absolute h-[85vh] bg-gradient-to-t   from-[#1e2126]
             via-transparent to-transparent w-full'></div>
-         <div className='absolute mt-[350px] md:mt-[350px] px-10 md:px-24'>
+         <div className='absolute mt-[250px] md:mt-[300px] px-10 md:px-24'>
             <h2 className='text-[19px] lg:text-[27px]'>Watch only on HULU</h2>
             <h2 className='text-[36px] lg:text-[47px] font-extrabold'>{movieList.original_title}</h2>
             <div className='flex gap-5 mt-5'>
