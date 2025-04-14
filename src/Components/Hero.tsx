@@ -18,7 +18,7 @@ function Hero() {
 
    return (
       <div>
-          <div className='absolute h-[85vh] bg-gradient-to-t   from-[#1e2126]
+          <div className='absolute h-[90vh] bg-gradient-to-t   from-[#1e2126]
             via-transparent to-transparent w-full'></div>
          <div className='absolute mt-[250px] md:mt-[300px] px-10 md:px-24'>
             <h2 className='text-[19px] lg:text-[27px]'>Watch only on HULU</h2>
@@ -33,7 +33,7 @@ function Hero() {
          </div>
          <img src={IMAGE_BASE_URL+movieList.backdrop_path}
          width={1920} height={1080}
-         className='h-[85vh] object-cover'/>
+         className='h-[90vh] object-cover'/>
       </div>
    )
 }
