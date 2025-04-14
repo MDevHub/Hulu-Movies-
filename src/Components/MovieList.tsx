@@ -36,7 +36,7 @@ function MovieList(genreId:any) {
                ))}
             </div>
          <IoChevronForwardOutline onClick={()=>slideRight(elementRef.current)} 
-            className='text-[40px] bg-black p-2 z-10 cursor-pointer mb-[120px] rounded-full'/>
+            className='text-[40px] bg-black p-2 z-10 cursor-pointer mb-[120px] rounded-full hidden md:block'/>
       </div>
   )
 }

@@ -57,10 +57,11 @@ function Header() {
 					<ul className='absolute bg-gray-700 w-[200px] text-center mt-3
 						left-0 right-0 ml-auto mr-auto rounded-md px-3'>
 						{menu.map((item)=> (
-							<li className='text-gray-400 text-[18px]
+							<li className={`text-gray-400 text-[18px]
 								font-medium cursor-pointer mb-2 mt-2 hover:bg-gray-600
 								hover:text-white px-3 pb-2 py-1 rounded-md
-								transition-all duration-500 ease-in-out'>
+								${item.id==1?"bg-gray-700 text-white":null}
+								transition-all duration-500 ease-in-out`}>
 								{item.name}
 							</li>
 						))}
