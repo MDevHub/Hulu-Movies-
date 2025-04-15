@@ -10,5 +10,5 @@ function App() {
     </div>
   )
 }
-
+// Trigger Vercel redeploy.
 export default App
