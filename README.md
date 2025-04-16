@@ -1,3 +1,22 @@
+# 🎬 Movie Slider App
+
+A responsive movie slider built with **React**, powered by **Vite** and **TMDB API**. Scroll and explore movies with smooth auto-centering and hover previews.
+
+## 🚀 Live Demo
+
+Check it out on [Vercel](https://hulu-movies-vercel-app.vercel.app/)
+
+## 🛠 Tech Stack
+
+- React + Vite
+- TypeScript
+- TMDB API
+- TailwindCSS
+- ESLint + Prettier
+
+## 📦 Getting Started
+
+##DEFAULT DESCR....
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
